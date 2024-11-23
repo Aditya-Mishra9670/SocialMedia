@@ -1,0 +1,110 @@
+/* Register.css */
+
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .sign-up-container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Left section styling */
+  .leftpart {
+    flex: 1;
+    background: linear-gradient(135deg, #007bff, #0056d3);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .appname {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .app-slogan {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  /* Right section styling */
+  .rightpart {
+    flex: 1.5;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .rightheading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .signupform {
+    width: 100%;
+  }
+  
+  .signupform form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .signupform label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .signupform input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .signupform input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submitButton {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056d3;
+  }
+  
